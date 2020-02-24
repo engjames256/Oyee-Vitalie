@@ -70,14 +70,12 @@ h3 {
 p {
   font-size: 20px;
   padding-left: 20%;
-
   padding-right: 20%;
 }
 .form {
   display: flex;
   height: 500px;
   background-color: gray;
-  border-radius: 10px; 
 }
 form {
   margin: auto;
@@ -100,6 +98,12 @@ form {
 }
 input[type="email"] {
   padding: 12px 20px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
 @media only screen and (max-width: 500px) {
   #header {
