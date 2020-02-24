@@ -1,0 +1,35 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    position: fixed;
+    background-color: black;
+    height: 6vh;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+#header-img{
+    width: 100px;
+    margin-right: 100px;
+}
+#nav-bar{
+    margin-left: 65%;
+    margin-top: 25px;
+}
+.logo-nav{
+    display: flex;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    padding: 40px  20px 40px 20px ;
+    font-size: 30px;
+}
+a:hover{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+}
