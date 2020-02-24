@@ -12,11 +12,12 @@ html {
   padding-bottom: 50px;
 }
 #header-img {
-  width: 100px;
+  width: 250px;
+  height: 90px;
   margin-right: 100px;
 }
 #nav-bar {
-  margin-left: 56%;
+  margin-left: 45%;
   margin-top: 25px;
 }
 .logo-nav {
@@ -35,12 +36,15 @@ a:hover {
   color: black;
   border-radius: 5px;
 }
+h3{
+margin-left: 180px;
+}
 .video-info {
   display: flex;
   background-color: grey;
   border-radius: 10px;
-  margin-top: 55px;
-  padding-bottom: 30px;
+  padding-bottom: 150px;
+  
 }
 .video,
 #video {
@@ -53,6 +57,7 @@ a:hover {
 #video {
   border: 2px solid grey;
   margin-left: 95px;
+  margin-top: 100px;
 }
 .video-description p {
   text-align: left;
@@ -60,12 +65,44 @@ a:hover {
   margin-right: 20px;
   color: white;
 }
-#form {
-  height: 500px;
+#video-info{
+    margin-top: 100px;
 }
+
 p {
   font-size: 20px;
   padding-left: 20%;
 
   padding-right: 20%;
+}
+.form{
+    display: flex;   
+    height: 500px;
+    background-color: gray;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+form{
+    margin: auto;
+}
+#email{
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+    border: 3px solid green;
+}
+#submit{
+    height: 55px;
+    width: 100px;
+    border-radius: 5px;
+    border: 3px solid green;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+input[type=email]{
+    padding: 12px 20px;
+    
+
 }
